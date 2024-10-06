@@ -42,6 +42,10 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+const achievementSection = {
+
+};
+
 // Skills Section
 
 const skillsSection = {
