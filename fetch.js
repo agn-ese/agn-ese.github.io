@@ -95,9 +95,3 @@ if (USE_GITHUB_DATA === "true") {
 }
 
 
-  req.on("error", error => {
-    throw error;
-  });
-
-  req.end();
-}
