@@ -42,9 +42,7 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-const achievementSection = {
 
-};
 
 // Skills Section
 
@@ -239,7 +237,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  achievementSection,
   techStack,
   workExperiences,
   openSource,
