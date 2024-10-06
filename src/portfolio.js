@@ -238,9 +238,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  achievementSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };
