@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
+      "src": "/android-chrome-192x192.jpg?v8=qAJ44G5Bm7",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
+      "src": "/android-chrome-384x384.jpg?v8=qAJ44G5Bm7",
+      "type": "image/jpg",
       "sizes": "384x384"
     }
   ],
