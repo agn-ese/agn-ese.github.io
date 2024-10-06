@@ -235,6 +235,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  achievementSection,
   techStack,
   workExperiences,
   openSource,
