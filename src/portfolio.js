@@ -264,11 +264,10 @@ const projectsData =[ {
 
   export default function Projects() {
     console.log("projecdata: ", projectsData);
-  return (
-    <div className="projects-section">
-      <h1 className="projects-title">My Projects</h1>
-      {projectsData.map((project, index) => (
-        return ( // Use return to return the JSX
+    return (
+        <div className="projects-section">
+        <h1 className="projects-title">My Projects</h1>
+        {projectsData.map((project, index) => (
           <ProjectDisplay // Make sure this is the correct component name
             key={index}
             title={project.title}
@@ -283,6 +282,8 @@ const projectsData =[ {
     </div>
   );
 }
+
+
 
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
