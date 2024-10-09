@@ -276,6 +276,7 @@ const projectsData =[ {
           githubLink={project.githubLink}
           itchioLink={project.itchioLink}
         />
+        console.log(images);
       ))}
     </div>
   );
