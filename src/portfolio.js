@@ -262,6 +262,8 @@ const projectsData =[ {
     }
 ];
 
+console.log("pro data: ", projectsData);
+
 export default function Projects() {
     console.log(projectsData);
   return (

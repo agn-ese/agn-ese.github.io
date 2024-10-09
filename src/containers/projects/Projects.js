@@ -14,12 +14,10 @@ export default function Projects({
     <div className="project-display">
       <h2 className="project-title">{title}</h2>
       <div className="video-container">
-        <video
-          className="project-video"
+        <video className="project-video"
           controls
           width="100%"
-          src={videoSrc}
-        >
+          src={videoSrc}>
           Your browser does not support the video tag.
         </video>
       </div>
