@@ -71,6 +71,7 @@ const skillsSection = {
 
 
   softwareSkills: [
+  {
 
         skillName: "Unity",
         icon: unityIcon // Use imported SVG
