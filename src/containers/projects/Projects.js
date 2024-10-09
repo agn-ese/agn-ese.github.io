@@ -1,70 +1,47 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
-import "./Project.scss";
-import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
-import Loading from "../../containers/loading/Loading";
-export default function Projects() {
-  const GithubRepoCard = lazy(() =>
-    import("../../components/githubRepoCard/GithubRepoCard")
+import {projects} from "../../portfolio"; 
+import React from "react";
+import "./ProjectDisplay.scss"; // Your styles for the ProjectDisplay component
+
+export default function ProjectDisplay({
+  title,
+  videoSrc,
+  description,
+  images,
+  githubLink,
+  itchioLink,
+}) {
+  return (
+    <div className="project-display">
+      <h2 className="project-title">{title}</h2>
+      <div className="video-container">
+        <video
+          className="project-video"
+          controls
+          width="100%"
+          src={videoSrc}
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p className="project-description">{description}</p>
+      <div className="image-gallery">
+        {images.map((image, index) => (
+          <img
+            src={image}
+            alt={`Project image ${index + 1}`}
+            key={index}
+            className="project-image"
+          />
+        ))}
+      </div>
+      <div className="project-links">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+          GitHub
+        </a>
+        <a href={itchioLink} target="_blank" rel="noopener noreferrer" className="project-link">
+          itch.io
+        </a>
+      </div>
+    </div>
   );
-  const FailedLoading = () => null;
-  const renderLoader = () => <Loading />;
-  const [repo, setrepo] = useState([]);
-  // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
-
-  useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
-  }, []);
-
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
-
-  console.log(repo); 
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <div className="main" id="opensource">
-          <h1 className="project-title">Projects</h1>
-          <div className="repo-cards-div-main">
-            {repo.map((v, i) => {
-              if (!v) {
-                console.error(
-                  `Github Object for repository number : ${i} is undefined`
-                );
-              }
-              return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
-            })}
-          </div>
-        </div>
-      </Suspense>
-    );
-  } else {
-    return <FailedLoading />;
-  }
 }
