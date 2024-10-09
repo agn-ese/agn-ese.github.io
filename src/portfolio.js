@@ -260,7 +260,7 @@ const projects =[ {
     githubLink: "https://github.com/yourusername/project2", // Replace with actual GitHub link
     itchioLink: "https://yourproject.itch.io/project2", // Replace with actual itch.io link
     }
-  };
+];
 
   export default function Projects() {
   return (
