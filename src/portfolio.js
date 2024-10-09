@@ -5,9 +5,9 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 import unityIcon from "./assets/images/icons/unity.svg"
-import csIcon from "./assets/images/icons/c#.svg"
+import csIcon from "./assets/images/icons/cs.svg"
 import cIcon from "./assets/images/icons/c.svg"
-import cppIcon from "./assets/images/icons/c++.svg"
+import cppIcon from "./assets/images/icons/cpp.svg"
 import unrealIcon from "./assets/images/icons/unreal.svg"
 import mongodbIcon from "./assets/images/icons/mongodb.svg"
 import pythonIcon from  "./assets/images/icons/python.svg"
