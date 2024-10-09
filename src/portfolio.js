@@ -4,6 +4,15 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import unityIcon from "./assets/images/icons/unity.svg"
+import csIcon from "./assets/images/icons/c#.svg"
+import cIcon from "./assets/images/icons/c.svg"
+import cppIcon from "./assets/images/icons/c++.svg"
+import unrealIcon from "./assets/images/icons/unreal.svg"
+import mongodbIcon from "./assets/images/icons/mongodb.svg"
+import pythonIcon from  "./assets/images/icons/python.svg"
+import blenderIcon from  "./assets/images/icons/blender.svg"
+import javascriptIcon from  "./assets/images/icons/javascript.svg"
 
 // Splash Screen
 
@@ -35,7 +44,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/agn-ese",
   linkedin: "https://www.linkedin.com/in/agnese-serafino/",
-  email: "agnese1999@live.com",
+  gmail: "agnese1999@live.com",
   itch: "https://agn-ese.itch.io/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -51,70 +60,53 @@ const skillsSection = {
   subTitle: "Game developer | XR/VR developer",
   skills: [
     emoji(
-      "⚡ Develop fun,interactive and efficient games"
+      "⚡ Develop fun, interactive and efficient games"
     ),
     emoji("⚡ Always up to date with the latest news about VR technologies"),
     emoji(
-      "⚡ Bring a bit of humor in everyone's lives"
+      "⚡ Always bring the best attitude"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+
 
   softwareSkills: [
-    {
-      skillName: "Unity",
-      fontAwesomeClassname: "fab fa-unity"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+
+        skillName: "Unity",
+        icon: unityIcon // Use imported SVG
+  },
+  {
+        skillName: "C#",
+        icon: csIcon // Use imported SVG
+  },
+  {
+        skillName: "Blender",
+        icon: blenderIcon // Use imported SVG
+  },
+  {
+        skillName: "C++",
+        icon: cppIcon // Use imported SVG
+  },
+  {
+        skillName: "Blender",
+        icon: blenderIcon // Use imported SVG
+  },
+  {
+        skillName: "Unreal Engine",
+        icon: unrealIcon // Use imported SVG
+  },
+  {
+        skillName: "C",
+        icon: cIcon // Use imported SVG
+  },
+  {
+        skillName: "MongoDB",
+        icon: mongodbIcon // Use imported SVG
+  },
+  {
+        skillName: "Python",
+        icon: pythonIcon // Use imported SVG
+  }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,7 +118,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Politecnico di Torino",
-      logo: require("./assets/images/politecnicoditorino.jpg"),
+      logo: require("./assets/images/politecnicoditorino.png"),
       subHeader: "Master of Science in Computer Engineering with focus on graphics and multimedia",
       duration: "March 2022 - December 2024",
       descBullets: [
@@ -141,7 +133,7 @@ const educationInfo = {
     },
     {
       schoolName: "Politecnico di Torino",
-      logo: require("./assets/images/politecnicoditorino.jpg"),
+      logo: require("./assets/images/politecnicoditorino.png"),
       subHeader: "Bachelor of Science in Computer Engineering",
       duration: "September 2018 - March 2022",
       descBullets: [
@@ -169,6 +161,10 @@ const techStack = {
     {
       Stack: "C, C#, C++ programming",
       progressPercentage: "85%"
+    },
+    {
+      Stack: "Blender",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
