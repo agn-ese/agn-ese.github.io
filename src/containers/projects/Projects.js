@@ -1,6 +1,6 @@
 import {projects} from "../../portfolio"; 
 import React from "react";
-import "./ProjectDisplay.scss"; // Your styles for the ProjectDisplay component
+import "./Projects.scss"; // Your styles for the ProjectDisplay component
 
 export default function ProjectDisplay({
   title,
