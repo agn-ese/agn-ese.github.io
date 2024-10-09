@@ -244,7 +244,7 @@ const projects =[ {
       "https://via.placeholder.com/100", // Replace with your actual image URLs
       "https://via.placeholder.com/100",
       "https://via.placeholder.com/100",
-    ],,
+    ],
     githubLink: "https://github.com/yourusername/project2", // Replace with actual GitHub link
     itchioLink: "https://yourproject.itch.io/project2", // Replace with actual itch.io link
     },
