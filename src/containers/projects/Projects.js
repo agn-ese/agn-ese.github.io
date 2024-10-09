@@ -1,4 +1,4 @@
-import {projectsData} from "../../portfolio"; 
+
 import React from "react";
 import "./Projects.scss"; // SCSS file for styling
 

@@ -107,6 +107,10 @@ const skillsSection = {
   {
         skillName: "Python",
         icon: pythonIcon // Use imported SVG
+  },
+  {
+      skillName: "javascript",
+      icon: javascriptIcon
   }
   ],
   display: true // Set false to hide this section, defaults to true
