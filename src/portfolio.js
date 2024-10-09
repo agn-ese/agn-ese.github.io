@@ -13,6 +13,7 @@ import mongodbIcon from "./assets/images/icons/mongodb.svg"
 import pythonIcon from  "./assets/images/icons/python.svg"
 import blenderIcon from  "./assets/images/icons/blender.svg"
 import javascriptIcon from  "./assets/images/icons/javascript.svg"
+import ProjectDisplay from "./containers/projects"; 
 
 // Splash Screen
 
