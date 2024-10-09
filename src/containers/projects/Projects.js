@@ -10,39 +10,35 @@ export default function Projects() {
   );
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
-  const [repo, setrepo] = useState([]);
+  const [repo, setrepo] = useState([
+  {
+    node: {
+      id: "1",
+      name: "Project 1",
+      description: "This is a description of Project 1",
+      url: "https://github.com/user/project1",
+      primaryLanguage: {
+        name: "JavaScript"
+      }
+    }
+  },
+  {
+    node: {
+      id: "2",
+      name: "Project 2",
+      description: "This is a description of Project 2",
+      url: "https://github.com/user/project2",
+      primaryLanguage: {
+        name: "Python"
+      }
+    }
+  }, []
+  // Add more projects as needed
+]);
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
-  useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
-  }, []);
 
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
@@ -62,7 +58,5 @@ export default function Projects() {
         </div>
       </Suspense>
     );
-  } else {
-    return <FailedLoading />;
-  }
+  
 }
