@@ -267,6 +267,7 @@ const projectsData =[ {
     <div className="projects-section">
       <h1 className="projects-title">My Projects</h1>
       {projectsData.map((project, index) => (
+        console.log(project.images);
         <Projects
           key={index}
           title={project.title}
@@ -276,7 +277,6 @@ const projectsData =[ {
           githubLink={project.githubLink}
           itchioLink={project.itchioLink}
         />
-        console.log(images);
       ))}
     </div>
   );
