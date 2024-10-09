@@ -37,7 +37,10 @@ export default function Projects() {
     // Add more projects here
   ]);
 
-  if (openSource.display) {
+  function setrepoFunction(array) {
+    setrepo(array);
+  }
+  if (!(typeof repo === "string" || repo instanceof String) && openSource.display) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
