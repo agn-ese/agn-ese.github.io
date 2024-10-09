@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.87106117.css",
-    "main.js": "/static/js/main.1563bf65.js",
+    "main.js": "/static/js/main.cd9f077b.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.87041b02.chunk.js": "/static/js/487.87041b02.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.7147e620.chunk.js": "/static/js/990.7147e620.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/politecnicoditorino.png": "/static/media/politecnicoditorino.438557cdc52663a38503.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/mediasoft.png": "/static/media/mediasoft.5173be56c73c8de3e5d5.png",
@@ -27,7 +26,7 @@
     "static/media/python.svg": "/static/media/python.f111e53006aeb0ebcfa822296b8b8109.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.389aa18a9b02da23f02b77ddfc9d12be.svg",
     "main.87106117.css.map": "/static/css/main.87106117.css.map",
-    "main.1563bf65.js.map": "/static/js/main.1563bf65.js.map",
+    "main.cd9f077b.js.map": "/static/js/main.cd9f077b.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.87041b02.chunk.js.map": "/static/js/487.87041b02.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -35,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.87106117.css",
-    "static/js/main.1563bf65.js"
+    "static/js/main.cd9f077b.js"
   ]
 }
