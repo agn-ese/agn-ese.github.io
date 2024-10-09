@@ -224,47 +224,6 @@ const contactInfo = {
 };
 
 
-const projectsData =[ {
-    title: "Elemhands",
-    videoUrl: "https://www.youtube.com/watch?v=_yOsClm7_KM", 
-    description: "The player will control the protagonist, who wakes up without memory on a mysterious island, with the goal of freeing the island from a dark force that pervades it. To achieve this, the player must learn by exploring the island and traversing its biomes the 4 Elemental Signs: magical powers representing the 4 natural elements (Water, Fire, Air, and Earth), expressed through gestures in Sign Language. By using these signs, the player will need to exploit the surrounding environment to solve puzzles and free the island of Elementia from the evil presence, with the help of friendly companions, each corresponding to one of the elements, by their side.",
-    images: [
-      "https://via.placeholder.com/100", // Replace with your actual image URLs
-      "https://via.placeholder.com/100",
-      "https://via.placeholder.com/100",
-    ],
-    githubLink: "https://github.com/yourusername/project2", // Replace with actual GitHub link
-    itchioLink: "https://yourproject.itch.io/project2", // Replace with actual itch.io link
-},
-    {
-    title: "Life on Set",
-    videoUrl: "https://www.youtube.com/watch?v=1zlKHRfq4SI&t=1s", 
-    description: "Life On Set is a virtual adventure in which you can live the set through the eyes of the runner while learning the basics of the several jobs related to the film world.  The runner is in charge of helping the workers on the set by accomplishing all the tasks assigned to him: assisting the costume designer, aiding the sound technician or supporting the assistant director in the searching for the appropriate extras.  This is an exciting experience discovering the astonishing world of film making.",
-    images: [
-      "https://via.placeholder.com/100", // Replace with your actual image URLs
-      "https://via.placeholder.com/100",
-      "https://via.placeholder.com/100",
-    ],
-    githubLink: "https://github.com/yourusername/project2", // Replace with actual GitHub link
-    itchioLink: "https://yourproject.itch.io/project2", // Replace with actual itch.io link
-    },
-    {
-    title: "NeonNightmare",
-    videoUrl: "https://www.youtube.com/watch?v=6LVeyZY4TXI", 
-    description: "Neon Nightmare is the story of a man who finds himself lost in the digital world, fight the enemies that he will meet during his journey and connect with his friend transistor. The world in which he is stuck in is full of viruses and references to the digital world.",
-    images: [
-      "https://via.placeholder.com/100", // Replace with your actual image URLs
-      "https://via.placeholder.com/100",
-      "https://via.placeholder.com/100",
-    ],
-    githubLink: "https://github.com/yourusername/project2", // Replace with actual GitHub link
-    itchioLink: "https://yourproject.itch.io/project2", // Replace with actual itch.io link
-    }
-];
-
-console.log("pro data: ", projectsData);
-
-
 
 
 
@@ -277,7 +236,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  projectsData,
   techStack,
   workExperiences,
   openSource,
