@@ -2,7 +2,7 @@ import {projects} from "../../portfolio";
 import React from "react";
 import "./Projects.scss"; // Your styles for the ProjectDisplay component
 
-export default function ProjectDisplay({
+export default function Projects({
   title,
   videoSrc,
   description,

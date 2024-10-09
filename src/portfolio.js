@@ -13,7 +13,6 @@ import mongodbIcon from "./assets/images/icons/mongodb.svg"
 import pythonIcon from  "./assets/images/icons/python.svg"
 import blenderIcon from  "./assets/images/icons/blender.svg"
 import javascriptIcon from  "./assets/images/icons/javascript.svg"
-import ProjectDisplay from "./containers/projects"; 
 
 // Splash Screen
 
@@ -269,7 +268,7 @@ export default function Projects() {
     <div className="projects-section">
       <h1 className="projects-title">My Projects</h1>
       {projectsData.map((project, index) => (
-        <ProjectDisplay // Use the new ProjectDisplay component
+        <Projects // Use the new ProjectDisplay component
           key={index}
           title={project.title}
           videoSrc={project.videoSrc}
