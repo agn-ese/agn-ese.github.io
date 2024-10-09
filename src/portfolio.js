@@ -262,23 +262,22 @@ const projectsData =[ {
     }
 ];
 
-  export default function Projects() {
-    console.log("projecdata: ", projectsData);
-    return (
-        <div className="projects-section">
-        <h1 className="projects-title">My Projects</h1>
-        {projectsData.map((project, index) => (
-          <ProjectDisplay // Make sure this is the correct component name
-            key={index}
-            title={project.title}
-            videoSrc={project.videoSrc}
-            description={project.description}
-            images={project.images}
-            githubLink={project.githubLink}
-            itchioLink={project.itchioLink}
-          />
-        );
-      })}
+export default function Projects() {
+    console.log(projectsData);
+  return (
+    <div className="projects-section">
+      <h1 className="projects-title">My Projects</h1>
+      {projectsData.map((project, index) => (
+        <ProjectDisplay // Use the new ProjectDisplay component
+          key={index}
+          title={project.title}
+          videoSrc={project.videoSrc}
+          description={project.description}
+          images={project.images}
+          githubLink={project.githubLink}
+          itchioLink={project.itchioLink}
+        />
+      ))}
     </div>
   );
 }
