@@ -264,25 +264,6 @@ const projectsData =[ {
 
 console.log("pro data: ", projectsData);
 
-export default function Projects() {
-    console.log(projectsData);
-  return (
-    <div className="projects-section">
-      <h1 className="projects-title">My Projects</h1>
-      {projectsData.map((project, index) => (
-        <Projects // Use the new ProjectDisplay component
-          key={index}
-          title={project.title}
-          videoSrc={project.videoSrc}
-          description={project.description}
-          images={project.images}
-          githubLink={project.githubLink}
-          itchioLink={project.itchioLink}
-        />
-      ))}
-    </div>
-  );
-}
 
 
 
@@ -296,6 +277,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  projectsData,
   techStack,
   workExperiences,
   openSource,
