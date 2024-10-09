@@ -267,20 +267,31 @@ const projectsData =[ {
     <div className="projects-section">
       <h1 className="projects-title">My Projects</h1>
       {projectsData.map((project, index) => (
-        console.log(project.images);
-        <Projects
-          key={index}
-          title={project.title}
-          videoSrc={project.videoSrc}
-          description={project.description}
-          images={project.images}
-          githubLink={project.githubLink}
-          itchioLink={project.itchioLink}
-        />
-      ))}
+        console.log(project.images); // Log the images to the console
+        return ( // Use return to return the JSX
+          <ProjectDisplay // Make sure this is the correct component name
+            key={index}
+            title={project.title}
+            videoSrc={project.videoSrc}
+            description={project.description}
+            images={project.images}
+            githubLink={project.githubLink}
+            itchioLink={project.itchioLink}
+          />
+        );
+      })}
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
 
 
 
