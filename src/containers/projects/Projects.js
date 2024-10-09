@@ -11,38 +11,34 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
 
-  useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
-  }, []);
+  const [repo] = useState([
+    {
+      node: {
+        id: "1",
+        name: "Project 1",
+        description: "This is the first project",
+        url: "https://project1-link.com",
+        primaryLanguage: {
+          name: "JavaScript"
+        }
+      }
+    },
+    {
+      node: {
+        id: "2",
+        name: "Project 2",
+        description: "This is the second project",
+        url: "https://project2-link.com",
+        primaryLanguage: {
+          name: "Python"
+        }
+      }
+    },
+    // Add more projects here
+  ]);
 
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
+  if (openSource.display) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
@@ -51,7 +47,7 @@ export default function Projects() {
             {repo.map((v, i) => {
               if (!v) {
                 console.error(
-                  `Github Object for repository number : ${i} is undefined`
+                  `Project data for project number : ${i} is undefined`
                 );
               }
               return (
@@ -71,4 +67,6 @@ export default function Projects() {
   } else {
     return <FailedLoading />;
   }
+
 }
+
