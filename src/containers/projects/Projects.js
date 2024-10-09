@@ -11,7 +11,7 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
 
-  const [repo] = useState([
+  const [repo, setrepo] = useState([
     {
       node: {
         id: "1",
