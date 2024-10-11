@@ -4,16 +4,18 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin: 30px;
 }
 
 .splash-animation-container {
   height: 50vh;
-  margin-bottom: -20px;
+  margin: 30px;
 }
 
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
+	
 }
 .splash-title {
   font-family: "Agustina Regular", cursive;
