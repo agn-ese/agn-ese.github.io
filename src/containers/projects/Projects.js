@@ -10,7 +10,6 @@ import neon1 from "../../assets/images/neon1.png";
 import neon2 from "../../assets/images/neon2.jpg";
 import neon3 from "../../assets/images/neon3.png";
 import neonpdf from "../../assets/PitchDocs/PitchDocumentNeonNightmare.pdf"
-import { Document, Page } from "react-pdf";
 
 const projectsData = [
   {
@@ -62,9 +61,7 @@ export default function Projects() {
            {/* Optional PDF */}
             {project.pdf && (
             <div className="pdf-container">
-                
-            <Document file={project.pdf} onLoadSuccess={onDocumentLoadSuccess} >
-            </Document>
+             <iframe src={project.pdf} width=”100%” height=”500px” />
         </div>
       )}
           <div className="project-links">
