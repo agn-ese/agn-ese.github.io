@@ -1,5 +1,21 @@
 @import "../../_globalColor";
 
+.projects-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+
+  // Make the section responsive
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
 .projects-title {
   text-align: center;
   font-size: 2.5rem;
@@ -7,13 +23,17 @@
 }
 
 .project-card {
-  border: 1px solid #ccc;
+  border: 1px solid #ccc; // Use your global border color if defined
   border-radius: 5px;
   padding: 15px;
   margin: 15px auto;
   max-width: 600px;
-  //background-color:  $lightBackground2;
-  //box-shadow:  $lightBoxShadowDark 0px 10px 30px -15px;
+  background-color: $lightBackground2; // Uncomment to use your global background color
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px; // Uncomment to use global box shadow
+
+  // Add consistent styling for card font and spacing
+  font-family: $main-font; // Global font variable
+  color: $text-color; // Global text color
 }
 
 .project-title {
