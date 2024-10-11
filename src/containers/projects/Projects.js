@@ -10,7 +10,7 @@ import neon1 from "../../assets/images/neon1.png";
 import neon2 from "../../assets/images/neon2.jpg";
 import neon3 from "../../assets/images/neon3.png";
 import neonpdf from "../../assets/PitchDocs/PitchDocumentNeonNightmare.pdf"
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from "react-pdf";
 
 const projectsData = [
   {
