@@ -32,7 +32,7 @@ const greeting = {
   username: "Agnese Serafino",
   title: "Hi everybody, I'm Agnese",
   subTitle: emoji("I am a passionate game developer and VR/XR developer. I have experience using game engines like Unity and programming languages such as C, C#, C++, Java, Python"),
-  resumeLink: "./assets/CV-english.pdf", // Set to empty to hide the button
+  resumeLink: "https://1drv.ms/b/s!ArX7Xm_oO-wN5V41r8_DMwfLTZWd?embed=1&em=2", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
