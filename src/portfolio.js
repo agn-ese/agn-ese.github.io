@@ -31,11 +31,8 @@ const illustration = {
 const greeting = {
   username: "Agnese Serafino",
   title: "Hi everybody, I'm Agnese",
-  subTitle: emoji(
-    "I am a passionate game developer and VR/XR developer. I have experience using game engines like Unity and programming languages such as C, C#, C++, Java, Python"
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  subTitle: emoji("I am a passionate game developer and VR/XR developer. I have experience using game engines like Unity and programming languages such as C, C#, C++, Java, Python"),
+  resumeLink: "./assets/CV-english.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,8 +43,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/agnese-serafino/",
   gmail: "agnese1999@live.com",
   itch: "https://agn-ese.itch.io/",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
