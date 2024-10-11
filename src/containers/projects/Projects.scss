@@ -7,40 +7,35 @@
 }
 
 .project-card {
-  color: $githubRepoCardColor;
-  background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  padding: 2rem;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.project-card:hover {
-box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 30px auto;
+  max-width: 1000px;
+  //background-color:  $lightBackground2;
+  //box-shadow:  $lightBoxShadowDark 0px 10px 30px -15px;
 }
 
 .project-title {
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .project-video {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .project-description {
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .image-gallery {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   .project-image {
     width: 32%; // Adjust as needed for spacing
