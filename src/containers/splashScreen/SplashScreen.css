@@ -8,6 +8,7 @@
 
 .splash-animation-container {
   height: 50vh;
+  margin-bottom: -20px;
 }
 
 .splash-title-container {
