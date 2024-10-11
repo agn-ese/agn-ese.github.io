@@ -2,7 +2,7 @@
 import React from "react";
 import "./Projects.scss"; // SCSS file for styling
 import elemhands from "../../assets/images/elemhands.jpg";
-import pdf from "../../assets/PitchDocs/Elemhands-GDD.pdf";
+import pdf from "../../assets/PitchDocs/elemhandsgdd.pdf";
 import life1 from "../../assets/images/lifeonset1.png";
 import life2 from "../../assets/images/lifeonset2.png";
 import life3 from "../../assets/images/lifeonset3.png";
