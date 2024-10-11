@@ -7,13 +7,18 @@
 }
 
 .project-card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 15px auto;
-  max-width: 600px;
-  //background-color:  $lightBackground2;
-  //box-shadow:  $lightBoxShadowDark 0px 10px 30px -15px;
+  color: $githubRepoCardColor;
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
 .project-title {
@@ -48,15 +53,33 @@
 .project-links {
   display: flex;
   justify-content: space-between;
+	
 
   a {
-    text-decoration: none;
-    color: #007bff;
-    transition: color 0.3s;
+  background-color: $buttonColor;
+  border: solid 1px $buttonColor;
+  color: $textColorDark;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
 
     &:hover {
-      color: #0056b3;
+        background-color: $darkBoxShadow2;
+  	color: $buttonColor;
+  	transition: all 0.3s ease 0s;
+  	transform: translateY(-3px);
     }
   }
+
 }
 
