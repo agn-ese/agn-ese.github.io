@@ -28,12 +28,8 @@
   padding: 15px;
   margin: 15px auto;
   max-width: 600px;
-  background-color: $lightBackground2; // Uncomment to use your global background color
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px; // Uncomment to use global box shadow
 
-  // Add consistent styling for card font and spacing
-  font-family: $main-font; // Global font variable
-  color: $text-color; // Global text color
+
 }
 
 .project-title {
