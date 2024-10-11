@@ -61,7 +61,7 @@ export default function Projects() {
            {/* Optional PDF */}
             {project.pdf && (
             <div className="pdf-container">
-             <iframe src={project.pdf} width=”100%” height=”500px” />
+             <iframe src={project.pdf} width="600" height="800" style="border:none;"></iframe>
         </div>
       )}
           <div className="project-links">
