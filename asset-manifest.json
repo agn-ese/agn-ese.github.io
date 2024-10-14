@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.86641766.css",
-    "main.js": "/static/js/main.93355bc3.js",
+    "main.js": "/static/js/main.23e8c428.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.4381338d.chunk.js": "/static/js/990.4381338d.chunk.js",
     "static/media/PitchDocumentNeonNightmare.pdf": "/static/media/PitchDocumentNeonNightmare.479dad9a28556f000eef.pdf",
-    "static/media/elemhandsgdd.pdf": "/static/media/elemhandsgdd.97b800a11ad00c8bbad9.pdf",
+    "static/media/elemhands.pdf": "/static/media/elemhands.23492a285d7590958875.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/lifeonset2.png": "/static/media/lifeonset2.9716948d1d49ad8c5a96.png",
     "static/media/neon1.png": "/static/media/neon1.9898f59a103f8f2745b4.png",
@@ -32,12 +32,12 @@
     "static/media/python.svg": "/static/media/python.f111e53006aeb0ebcfa822296b8b8109.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.389aa18a9b02da23f02b77ddfc9d12be.svg",
     "main.86641766.css.map": "/static/css/main.86641766.css.map",
-    "main.93355bc3.js.map": "/static/js/main.93355bc3.js.map",
+    "main.23e8c428.js.map": "/static/js/main.23e8c428.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.4381338d.chunk.js.map": "/static/js/990.4381338d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86641766.css",
-    "static/js/main.93355bc3.js"
+    "static/js/main.23e8c428.js"
   ]
 }
