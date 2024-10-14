@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import itch from  "../../assets/images/itch.svg"
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -63,7 +64,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon="fa-brands fa-itch-io" />
+          <img src = itch />
           <span></span>
         </a>
       ) : null}
