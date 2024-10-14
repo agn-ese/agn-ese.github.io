@@ -64,7 +64,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src = itch />
+          <img src = {itch} alt= "itch"/>
           <span></span>
         </a>
       ) : null}
