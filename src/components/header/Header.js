@@ -3,11 +3,11 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import Projects from "../../containers/projects/Projects";
 import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
   resumeSection
 } from "../../portfolio";
 
@@ -47,12 +47,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
+              <a href="#Projects">Projects</a>
             </li>
           )}
           <li>
