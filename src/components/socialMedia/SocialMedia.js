@@ -60,11 +60,11 @@ export default function socialMedia() {
       {socialMediaLinks.itch ? (
         <a
           href={socialMediaLinks.itch}
-          className="icon-button itch.io"
+          className="icon-button itch"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src = {itch} alt= "itch"/>
+          <i className="fa-brands fa-itch-io"></i>
           <span></span>
         </a>
       ) : null}

@@ -68,6 +68,11 @@
   background-color: $instagram;
 }
 
+.itch i {
+background-color: $itch;
+}
+
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,7 +83,8 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.itch i:hover {
   background-color: $textColor;
 }
 
