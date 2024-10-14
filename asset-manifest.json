@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c946a249.css",
-    "main.js": "/static/js/main.a4efbf20.js",
+    "main.css": "/static/css/main.1281dee5.css",
+    "main.js": "/static/js/main.e40f6d54.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.638b4bb7.chunk.js": "/static/js/990.638b4bb7.chunk.js",
     "static/media/PitchDocumentNeonNightmare.pdf": "/static/media/PitchDocumentNeonNightmare.479dad9a28556f000eef.pdf",
@@ -32,13 +32,13 @@
     "static/media/unity.svg": "/static/media/unity.e5094c2ef53f82ec0446f54ef0c49421.svg",
     "static/media/python.svg": "/static/media/python.f111e53006aeb0ebcfa822296b8b8109.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.389aa18a9b02da23f02b77ddfc9d12be.svg",
-    "main.c946a249.css.map": "/static/css/main.c946a249.css.map",
-    "main.a4efbf20.js.map": "/static/js/main.a4efbf20.js.map",
+    "main.1281dee5.css.map": "/static/css/main.1281dee5.css.map",
+    "main.e40f6d54.js.map": "/static/js/main.e40f6d54.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.638b4bb7.chunk.js.map": "/static/js/990.638b4bb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c946a249.css",
-    "static/js/main.a4efbf20.js"
+    "static/css/main.1281dee5.css",
+    "static/js/main.e40f6d54.js"
   ]
 }
