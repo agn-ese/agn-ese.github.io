@@ -26,7 +26,7 @@ const projectsData = [
     image1: life1,
     image2: life2,
     image3: life3,
-    githubLink: "https://github.com/chettilaura/Life-on-set",
+    githubLink: "https://github.com/agn-ese/LifeOnSet",
     itchioLink: "https://agn-ese.itch.io/life-on-set",
   },
   {
@@ -37,7 +37,7 @@ const projectsData = [
     image2: neon2,
     image3: neon3,
     pdf: neonpdf,
-    githubLink: "https://github.com/chettilaura/Neon-Nightmare",
+    githubLink: "https://github.com/agn-ese/NeonNightmare",
     itchioLink: "https://agn-ese.itch.io/neonnightmare",
   }
   // Add more projects as needed
