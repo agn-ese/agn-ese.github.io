@@ -84,10 +84,6 @@ const skillsSection = {
         icon: cppIcon // Use imported SVG
   },
   {
-        skillName: "Blender",
-        icon: blenderIcon // Use imported SVG
-  },
-  {
         skillName: "Unreal Engine",
         icon: unrealIcon // Use imported SVG
   },
