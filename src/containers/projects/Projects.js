@@ -18,7 +18,7 @@ const projectsData = [
     description: "The player will control the protagonist, who wakes up without memory on a mysterious island, with the goal of freeing the island from a dark force that pervades it. To achieve this, the player must learn by exploring the island and traversing its biomes the 4 Elemental Signs: magical powers representing the 4 natural elements (Water, Fire, Air, and Earth), expressed through gestures in Sign Language. By using these signs, the player will need to exploit the surrounding environment to solve puzzles and free the island of Elementia from the evil presence, with the help of friendly companions, each corresponding to one of the elements, by their side.",
     image1: elemhands, // Update with actual image paths
     pdf: pdf,
-    githubLink: "https://github.com/agn-ese/Elemhands",
+    githubLink: "https://github.com/agn-ese/Elemhands", 
     itchioLink: "https://kv62discover.itch.io/elemhands",
   },
   {
